@@ -66,5 +66,5 @@ That's it. `gradlew` is a script that downloads Gradle and the right Java versio
 
 ### Lagtränare (Team coach)
  1. Rob Lingstuyl
- 2. Alex Bauefort
+ 2. Alex Beaufort
 
