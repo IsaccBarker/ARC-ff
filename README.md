@@ -35,11 +35,8 @@ You can find the original README (for the FtcRobotController repository) [here](
 
  3. An IDE of your choice
 
-# IMPORTANT!
-Do these steps before you ask how to build.
-
 ### Låt oss fortsätta med det (Let's get on with it)
-Because of the nature of the FTC Tech Challenge (yes, I know, [RAS syndome](https://en.wikipedia.org/wiki/RAS_syndrome), all of our code is put inside of the FtcRobotController source tree. They use `gradle`, and so do we. Never used Gradle? Well, you don't need to. Android Studio (our IDE of choice, for most of us anyway) already has Gradle integration, so building should be as simple as pressing the build button. **You need to do some setup the first time you build.** Run this:
+Because of the nature of the FTC Tech Challenge (yes, I know, [RAS syndome](https://en.wikipedia.org/wiki/RAS_syndrome), they use `gradle`; so do we. Never used Gradle? Well, you don't need to. Android Studio (our IDE of choice, for most of us anyway) already has Gradle integration, so building should be as simple as pressing the build button. **You need to do some setup the first time you build.** Run this:
 ```bash
 ./scripts/setup.sh
 ```
@@ -50,21 +47,15 @@ However, if you are an enterprising person, you may want to do things "the old-f
 ./gradlew build
 ```
 
-That's it. `gradlew` is a script that downloads Gradle and runs the commands for you, so there's no fuss! This README will be extended to contain instructions on how to run this "binary" from the command line when we figure it out.
-
-## libOpenCvAndroid.so
-For Easy Open Cv to work you have to download the `libOpenCvAndroid.so` file and copy it to the robot controller inside of the FIRST folder; you can find download and further instructions [here](https://github.com/OpenFTC/EasyOpenCV) If there is a error you might need to rename it whatever file the error says is missing.
-
+That's it. `gradlew` is a script that downloads Gradle and the right Java version, and runs the commands for you, so there's no fuss!
 
 ## Författare och meriter (Authors and credits)
-### Programvaruingenjörer (Software engineers)
+### Programvaruingenjörer (Software engineers, alphabetical)
  1. Milo Banks
 
  2. Aurora Chichos/Chicken
 
- 3. Jack Revoy
-
- 4. Teo Welton
+ 3. Teo Welton
 
 ### Bibliotek används (Libraries used)
 ##### Driver for our code (pun intended!)
@@ -75,4 +66,5 @@ For Easy Open Cv to work you have to download the `libOpenCvAndroid.so` file and
 
 ### Lagtränare (Team coach)
  1. Rob Lingstuyl
+ 2. Alex Bauefort
 
